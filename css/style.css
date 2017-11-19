@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+}
+*{
+	box-sizing: border-box;
+	user-select: none;
+}
+div.body {
+	width: 680px;
+	position: relative;
+	height: 120px;
+	margin: auto;
+	margin-top: 100px;
+}
+div.stick {
+	width: 680px;
+	height: 3px;
+	background: #1F3A93;
+	left: 0;
+	top: 58px;
+	position: absolute;
+}
+div.box {
+	float: left;
+	width: 120px;
+	height: 120px;
+	background: radial-gradient(#4183D7,#22A7F0);
+	border-radius: 50%;
+	position: relative;
+	border: 5px solid transparent;
+	border-left: 3px solid #9A12B3;
+	border-right: 3px solid #9A12B3;
+	position: absolute;
+	background: url(../img/spinner.gif)no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+div.game {
+	text-align: center;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 50%;
+	font-size: 24px;
+	padding-top: 35px;
+	margin-top: -50px;
+	color: black;
+	font-weight: bold;
+	padding-right: 5px;
+}
+div#result {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 40px;
+	display: none;
+}
+button {
+	background: #89C4F4;
+	border: 1px solid #89C4F4;
+	padding: 20px;
+	font-size: 20px;
+	border-radius: 5px;
+	margin: auto;
+	margin-left: 50%;
+	transform: translateX(-65px);
+	margin-top: 20px;
+	display: none;
+}
